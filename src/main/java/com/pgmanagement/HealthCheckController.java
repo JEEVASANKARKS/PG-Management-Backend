@@ -15,7 +15,7 @@ public class HealthCheckController {
 	public ResponseEntity<Map<String, String>> health() {
 		return ResponseEntity.ok(Map.of(
 				"status", "UP",
-				"message", "PG Management Backend is running"
+				"message", "PG Management Backend is running well"
 		));
 	}
 }
